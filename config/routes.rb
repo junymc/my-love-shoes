@@ -3,13 +3,13 @@ Rails.application.routes.draw do
   
   namespace :api do
     namespace :v1 do
-      resourses :brands
+      resources :brands
     end
   end
 
   namespace :api do
     namespace :v1 do
-      resourses :shoes
+      resources :shoes
     end
   end
 
