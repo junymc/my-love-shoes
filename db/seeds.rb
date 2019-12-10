@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Brand.create([
+    {name: 'Adidas'},
+    {name: 'Nike'},
+    {name: 'Vince Camuto'},
+    {name: 'Jimmy Choo'},
+    {name: 'Ugg'},
+    {name: 'Christian Louboutin'},
+    {name: 'Steve Madden'},
+    {name: 'Tory Burch'}
+])
+Shoe.create([
+    {model: }
+])
