@@ -11,17 +11,24 @@ class Api::V1::BrandsController < ApplicationController
         render json: @brand, status: 200
     end
 
+    def new
+        @brand = Brand.new(brand_params)
+    end
+
     def create
-        @brand = Brand.create(brand_params)
-
-        render json: @brand, status: 200
+        @brand = Brand.new(brand_params)
+        if @brand.save
+            render json: @brand, status: 200
+        else
+            render :new
+        end
     end
 
-    def update
-        @brand = Brand.create(params[:id])
-        @brand.update(brand_params)
-        render json: @brand, status: 200
-    end
+    # def update
+    #     @brand = Brand.create(params[:id])
+    #     @brand.update(brand_params)
+    #     render json: @brand, status: 200
+    # end
 
     def destroy
         @brand = Brand.find(params[:id])

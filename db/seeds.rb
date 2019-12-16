@@ -16,6 +16,3 @@ Brand.create([
     {name: 'Steve Madden'},
     {name: 'Tory Burch'}
 ])
-Shoe.create([
-    {model: }
-])

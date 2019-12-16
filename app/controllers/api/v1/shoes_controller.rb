@@ -11,10 +11,22 @@ class Api::V1::ShoesController < ApplicationController
         render json: @shoe, status: 200
     end
 
-    def create
-        @shoe = Shoe.create(shoe_params)
+    def new
+        @shoe = Shoe.new(shoe_params)
+    end
 
-        render json: @shoe, status: 200
+    def create
+        @shoe = Shoe.new(shoe_params)
+        if params[:brand_id]
+            find_brand
+            @shoe.brand = @brand
+        end
+
+        if @shoe.save
+            render json: @shoe, status: 200
+        else
+            render :new
+        end
     end
 
     def update
