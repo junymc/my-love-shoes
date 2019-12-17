@@ -1,15 +1,18 @@
 class Api::V1::ShoesController < ApplicationController
     def index
-        @shoes = Shoe.all
+        if params[:brand_id]
+            @shoes = Brand.find(params[:brand_id]).shoes
+        end
+        @shoes
 
         render json: @shoes, status: 200
     end
 
-    def show
-        @shoe = Shoe.find(params[:id])
+    # def show
+    #     @shoe = Shoe.find(params[:id])
 
-        render json: @shoe, status: 200
-    end
+    #     render json: @shoe, status: 200
+    # end
 
     def new
         @shoe = Shoe.new(shoe_params)
@@ -44,7 +47,11 @@ class Api::V1::ShoesController < ApplicationController
 
     private
     def shoe_params
-        params.require(:shoe).permit(:model, :size, :color, :type)
+        params.require(:shoe).permit(:model, :size, :color, :category)
     end
+
+    def find_brand
+        @brand = Brand.find(params[:id])
+      end
 
 end
