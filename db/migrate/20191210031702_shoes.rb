@@ -4,7 +4,7 @@ class Shoes < ActiveRecord::Migration[6.0]
       t.string :model
       t.integer :size
       t.string :color
-      t.string :type
+      t.string :category
       t.integer :brand_id
     
       t.timestamps
