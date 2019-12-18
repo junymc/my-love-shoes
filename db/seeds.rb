@@ -323,5 +323,45 @@ shoes = Shoe.create([
             color: "Navy",
             category: "Sneakers",
             brand_id: 12
+        },
+        {
+            id: 31,
+            model: "Ace",
+            size: 5.5,
+            color: "White",
+            category: "Sneakers",
+            brand_id: 13
+        },
+        {
+            id: 32,
+            model: "Tatiana",
+            size: 5.5,
+            color: "Blush Leopard Haircalf",
+            category: "Heels",
+            brand_id: 14
+        },
+        {
+            id: 33,
+            model: "Tetty",
+            size: 6,
+            color: "Black",
+            category: "Boots",
+            brand_id: 14
+        },
+        {
+            id: 34,
+            model: "Annalee",
+            size: 6,
+            color: "Sahara",
+            category: "Sandals",
+            brand_id: 15
+        },
+        {
+            id: 35,
+            model: "Katerina Crystal",
+            size: 6,
+            color: "Silver",
+            category: "Boots",
+            brand_id: 15
         }
     ])
