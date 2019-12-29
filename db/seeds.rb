@@ -91,6 +91,7 @@ shoes = Shoe.create([
             size: 6,
             color: "White",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/adidas-superstar(white).jpg",
             brand_id: 1
         },
         {
@@ -99,6 +100,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Vapour Pink",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/adidas-nmd(Vapour Pink).jpg",
             brand_id: 1
         },
         {
@@ -107,6 +109,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Coral Stardust",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/nike-airmax270-coral.jpg",
             brand_id: 2
         },
         {
@@ -115,6 +118,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Black",
             category: "Trainers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 2
         },
         {
@@ -123,6 +127,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Bio Beige",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 2
         },
         {
@@ -131,6 +136,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Black",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 3
         },
         {
@@ -139,6 +145,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Black",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 3
         },
         {
@@ -147,6 +154,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Black-Smoke",
             category: "Sandals",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 3
         },
         {
@@ -155,6 +163,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Moon Sand",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 4
         },
         {
@@ -163,6 +172,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Nude Suede",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 4
         },
         {
@@ -171,6 +181,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Gold",
             category: "Wedges",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 4
         },
         {
@@ -179,6 +190,7 @@ shoes = Shoe.create([
             size: 5,
             color: "Chestnut",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 5
         },
         {
@@ -187,6 +199,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Grey",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 5
         },
         {
@@ -195,6 +208,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Dusty Pink",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 6
         },
         {
@@ -203,6 +217,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Black",
             category: "Flats",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 6
         },
         {
@@ -211,6 +226,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Ivory",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 6
         },
         {
@@ -219,6 +235,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Black",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 7
         },
         {
@@ -227,6 +244,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Black",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 7
         },{
             id: 19,
@@ -234,6 +252,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Animal",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 7
         },
         {
@@ -242,6 +261,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Brown",
             category: "Flats",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 8
         },
         {
@@ -250,6 +270,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Goldfinch",
             category: "Sandals",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 8
         },
         {
@@ -258,14 +279,16 @@ shoes = Shoe.create([
             size: 6,
             color: "Drak Tan",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 8
         },
         {
             id: 23,
             model: "Qoidia",
             size: 6,
-            color: : "Black",
+            color: "Black",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 9
         },
         {
@@ -274,6 +297,7 @@ shoes = Shoe.create([
             size: 6,
             color: "White",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 9
         },
         {
@@ -282,6 +306,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Smoked Salt with Silver",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 10
         },
         {
@@ -290,6 +315,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Rain Cloud",
             category: "Trainers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 10
         },
         {
@@ -298,6 +324,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Natural",
             category: "Flats",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 11
         },
         {
@@ -306,6 +333,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Toffee",
             category: "Flats",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 11
         },
         {
@@ -314,6 +342,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Bleached Aqua",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 12
         },
         {
@@ -322,6 +351,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Navy",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 12
         },
         {
@@ -330,6 +360,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "White",
             category: "Sneakers",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 13
         },
         {
@@ -338,6 +369,7 @@ shoes = Shoe.create([
             size: 5.5,
             color: "Blush Leopard Haircalf",
             category: "Heels",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 14
         },
         {
@@ -346,6 +378,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Black",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 14
         },
         {
@@ -354,6 +387,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Sahara",
             category: "Sandals",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 15
         },
         {
@@ -362,6 +396,7 @@ shoes = Shoe.create([
             size: 6,
             color: "Silver",
             category: "Boots",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
             brand_id: 15
         }
     ])

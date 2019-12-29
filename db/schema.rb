@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2019_12_10_031702) do
     t.integer "size"
     t.string "color"
     t.string "category"
+    t.string "image"
     t.integer "brand_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

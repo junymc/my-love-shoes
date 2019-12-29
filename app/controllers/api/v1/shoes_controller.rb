@@ -47,7 +47,7 @@ class Api::V1::ShoesController < ApplicationController
 
     private
     def shoe_params
-        params.require(:shoe).permit(:model, :size, :color, :category)
+        params.require(:shoe).permit(:brand, :model, :size, :color, :category, :image)
     end
 
     def find_brand
