@@ -11,10 +11,6 @@ class Api::V1::BrandsController < ApplicationController
         render json: @brand, status: 200
     end
 
-    def new
-        @brand = Brand.new(brand_params)
-    end
-
     def create
         @brand = Brand.new(brand_params)
         if @brand.save

@@ -8,77 +8,62 @@
 
 brands = Brand.create([
     {
-        id: 1,
         name: "Adidas",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/adidas-logo.png"
     },
     {
-        id: 2,
         name: "Nike",
         image: "https://upload.wikimedia.org/wikipedia/commons/9/94/Old_Nike_logo.jpg"
     },
     {
-        id: 3,
         name: "Vince Camuto",
         image: "https://i.pinimg.com/originals/fd/ef/4f/fdef4f1adc6a5a1d5baf46f16f12e59b.jpg"
     },
     {
-        id: 4,
         name: "Jimmy Choo",
         image: "http://www.cidasconsignment.com/wp-content/uploads/2013/07/o.1081.jpg"
     },
     {
-        id: 5,
         name: "Ugg",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/ugg-logo.jpeg"
     },
     {
-        id: 6,
         name: "Christian Louboutin",
         image: "https://i.pinimg.com/originals/35/81/8d/35818d78d5369b70ecaa77c6be6abdeb.jpg"
     },
     {
-        id: 7,
         name: "Steve Madden",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/Steve-madden-Logo.jpg"
     },
     {
-        id: 8,
         name: "Tory Burch",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/Tory-Burch-Logo.jpg"
     },
     {
-        id: 9,
         name: "Aldo",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/aldo-Logo.jpg"
     },
     {
-        id: 10,
         name: "New Balance",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/new-balance-Logo.jpg"
     },
     {
-        id: 11,
         name: "Toms",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/toms-Logo.png"
     },
     {
-        id: 12,
         name: "Converse",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/converse-Logo.jpg"
     },
     {
-        id: 13,
         name: "Gucci",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/gucci-logo.jpg"
     },
     {
-        id: 14,
         name: "Nine West",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/ninewest-logo.jpg"
     },
     {
-        id: 15,
         name: "Michael Kors",
         image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/mk-logo.png"
     }
@@ -86,7 +71,6 @@ brands = Brand.create([
 
 shoes = Shoe.create([
         {
-            id: 1,
             model: "Superstar",
             size: 6,
             color: "White",
@@ -95,16 +79,14 @@ shoes = Shoe.create([
             brand_id: 1
         },
         {
-            id: 2,
             model: "NMD",
             size: 6,
             color: "Vapour Pink",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/adidas-nmd(Vapour Pink).jpg",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/adidas-nmd(Vapour-Pink).jpg",
             brand_id: 1
         },
         {
-            id: 3,
             model: "Air Max 270",
             size: 5.5,
             color: "Coral Stardust",
@@ -113,290 +95,258 @@ shoes = Shoe.create([
             brand_id: 2
         },
         {
-            id: 4,
             model: "In Season TR 9",
             size: 5.5,
             color: "Black",
             category: "Trainers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/nike-InSeasonTR9.jpg",
             brand_id: 2
         },
         {
-            id: 5,
             model: "Air Force 1",
             size: 6,
             color: "Bio Beige",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/nike-airforce1.jpg",
             brand_id: 2
         },
         {
-            id: 6,
             model: "Hailie",
             size: 6,
             color: "Black",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/vince-camuto-hailie.jpg",
             brand_id: 3
         },
         {
-            id: 7,
             model: "Rivestan",
             size: 5.5,
             color: "Black",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/vince-camuto-Rivestan.jpeg",
             brand_id: 3
         },
         {
-            id: 8,
             model: "Daine",
             size: 5.5,
             color: "Black-Smoke",
             category: "Sandals",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/vince-camuto-Daine.jpeg",
             brand_id: 3
         },
         {
-            id: 9,
             model: "Love 100",
             size: 5.5,
             color: "Moon Sand",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/jimmy-choo-love100.jpg",
             brand_id: 4
         },
         {
-            id: 10,
             model: "Romy 85",
             size: 5.5,
             color: "Nude Suede",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/jimmy-choo-romy85.jpg",
             brand_id: 4
         },
         {
-            id: 11,
             model: "Aleili",
             size: 6,
             color: "Gold",
             category: "Wedges",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/jimmy-choo-Aleili.jpeg",
             brand_id: 4
         },
         {
-            id: 12,
             model: "Classic Short",
             size: 5,
             color: "Chestnut",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/ugg-classic-short-chestnut.jpg",
             brand_id: 5
         },
         {
-            id: 13,
             model: "Bailey Button",
             size: 6,
             color: "Grey",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/ugg-Bailey-Button-grey.jpg",
             brand_id: 5
         },
         {
-            id: 14,
-            model: "Degrastrass",
+            model: "Degrastrass 100",
             size: 5.5,
             color: "Dusty Pink",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/christianlouboutin-Degrastrass100.jpg",
             brand_id: 6
         },
         {
-            id: 15,
             model: "Anjalina",
             size: 5.5,
             color: "Black",
             category: "Flats",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/christianlouboutin-anjalina.jpg",
             brand_id: 6
         },
         {
-            id: 16,
             model: "Iriza",
             size: 5.5,
             color: "Ivory",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/christianlouboutin-iriza.jpg",
             brand_id: 6
         },
         {
-            id: 17,
             model: "Dominique",
             size: 6,
             color: "Black",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/steve-madden-Dominique.jpg",
             brand_id: 7
         },
         {
-            id: 18,
             model: "Vala-S",
             size: 5.5,
             color: "Black",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/STEVEMADDEN-VALA-S.jpg",
             brand_id: 7
         },{
-            id: 19,
             model: "Cliff",
             size: 6,
             color: "Animal",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/steve-madden-Cliff.jpg",
             brand_id: 7
         },
         {
-            id: 20,
             model: "Minnie Cap",
             size: 5.5,
-            color: "Brown",
+            color: "Warm Roccia",
             category: "Flats",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/tory-burch-minnie-cap.jpg",
             brand_id: 8
         },
         {
-            id: 21,
             model: "Miller Sandal",
             size: 6,
-            color: "Goldfinch",
+            color: "Desert Roccia",
             category: "Sandals",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/tory-burch-miller-sandal.jpeg",
             brand_id: 8
         },
         {
-            id: 22,
             model: "Miller Lug Sole",
             size: 6,
             color: "Drak Tan",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/tory-burch-MillerLugSole.jpeg",
             brand_id: 8
         },
         {
-            id: 23,
             model: "Qoidia",
             size: 6,
             color: "Black",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/aldo-qoidia-boots.jpg",
             brand_id: 9
         },
         {
-            id: 24,
             model: "Elareria",
             size: 6,
             color: "White",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/aldo-elareria_white.jpg",
             brand_id: 9
         },
         {
-            id: 25,
             model: "574",
             size: 5.5,
             color: "Smoked Salt with Silver",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/NewBalance-574.jpeg",
             brand_id: 10
         },
         {
-            id: 26,
             model: "Cruz V2 Fresh Foam",
             size: 5.5,
             color: "Rain Cloud",
             category: "Trainers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/NewBalance-CruzV2FreshFoam.jpg",
             brand_id: 10
         },
         {
-            id: 27,
             model: "Woven Classics",
             size: 5.5,
             color: "Natural",
             category: "Flats",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/toms-Woven-Classics.jpg",
             brand_id: 11
         },
         {
-            id: 28,
             model: "Alpargata Crepe Espadrilles",
             size: 5.5,
             color: "Toffee",
             category: "Flats",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/toms-Alpargata-Crepe-Espadrilles.jpg",
             brand_id: 11
         },
         {
-            id: 29,
             model: "Chuck Taylor Low Top",
             size: 5.5,
             color: "Bleached Aqua",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/Converse-Chuck-Taylor-All-Star.jpg",
             brand_id: 12
         },
         {
-            id: 30,
             model: "Chuck Taylor All Star High Top",
             size: 5.5,
             color: "Navy",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/converse-Chuck-Taylor-All-Star-High-Top.jpg",
             brand_id: 12
         },
         {
-            id: 31,
             model: "Ace",
             size: 5.5,
             color: "White",
             category: "Sneakers",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/gucci-ace.jpeg",
             brand_id: 13
         },
         {
-            id: 32,
             model: "Tatiana",
             size: 5.5,
             color: "Blush Leopard Haircalf",
             category: "Heels",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/nine-west-leopard-tatiana.jpeg",
             brand_id: 14
         },
         {
-            id: 33,
             model: "Tetty",
             size: 6,
             color: "Black",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/nine-west-Tetty.jpg",
             brand_id: 14
         },
         {
-            id: 34,
-            model: "Annalee",
+            model: "Annalee Embellished Suede",
             size: 6,
             color: "Sahara",
             category: "Sandals",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/michael-kors-Annalee-Embellished-Suede.jpeg",
             brand_id: 15
         },
         {
-            id: 35,
             model: "Katerina Crystal",
             size: 6,
             color: "Silver",
             category: "Boots",
-            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/",
+            image: "/Users/Juny/Development/code/projects/js_project/shoes-js-frontend/styles/images/michael-kors-Katerina-Crystal.jpeg",
             brand_id: 15
         }
     ])
