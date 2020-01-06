@@ -1,25 +1,37 @@
-# README
+# shoe Collection
+This project is a simple app for tracking all the shoes that I have in my shoe closet. Eventually, I would love to add a user login/logoff feature so that other people can add comments or I can add a shopping cart if there are some shoes for sale. However, for now this is an app simply for tracking my own personal collection.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objectives
+My frontend is built with HTML, CSS, and JavaScript. My frontend communicates with a backend API that I built with Ruby and Rails.
 
-Things you may want to cover:
+  - Design and architect features across frontend and backend
+  - Integrate JavaScript and Rails
 
-* Ruby version
+## dependency
+Javascript frontend https://github.com/junymc/shoes-js-frontend
 
-* System dependencies
+## instructions
+Clone this repo and install all the dependencies running by:
+```
+$ bundle install
+```
 
-* Configuration
+Create a database.
+```
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+```
 
-* Database creation
+You can run the server locally with the command below:
+```
+$ rails s
+```
 
-* Database initialization
+Once you are set with Rails backend part, open the dependency file from above the link, clone the repo and open index.html on your browser.
 
-* How to run the test suite
+## Authors
+Junyoung McArdle - https//:github.com/junymc
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# my-love-shoes
+## Contributing
+This project is open source under the MIT license, which means you have full access to the source code and can modify it to fit your own needs.
