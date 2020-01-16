@@ -16,7 +16,7 @@ class Api::V1::BrandsController < ApplicationController
         if @brand.save
             render json: @brand, status: 200
         else
-            render :new
+            render json: {error: "Unable to save a brand."}, status: 400
         end
     end
 
